@@ -93,6 +93,7 @@ sns.catplot(x="Gender",col="Survived",kind="count",data=dt,height=5,aspect=.7)
 ```
 sns.catplot(x="Survived",hue='Gender',data=dt,kind='count')
 ```
+
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/8ad08d6e-4745-437a-b71b-426bf1491eb3)
 ```
@@ -108,11 +109,13 @@ sns.scatterplot(data=dt,x="Age",y="Fare",hue="Survived")
 ```
 sns.jointplot(data=dt,x="Age",y="Fare",hue="Survived")
 ```
+
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/d8730e06-2ab3-407d-806a-ce48744bd4cf)
 ```
 sns.catplot(x="Gender",col="Survived",hue="Pclass",kind="count",data=dt)
 ```
+
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/0480de19-1f48-4b9d-8995-4f3bcde54e7e)
 
@@ -128,6 +131,7 @@ sns.pairplot(dt)
 ```
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/a2635aa1-820d-4ce8-9b01-db270b34079a)
+
 
 
 # RESULT
