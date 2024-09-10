@@ -129,5 +129,6 @@ sns.pairplot(dt)
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/a2635aa1-820d-4ce8-9b01-db270b34079a)
 
+
 # RESULT
 Thus, the program is executed successfully.
